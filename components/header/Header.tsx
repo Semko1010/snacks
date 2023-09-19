@@ -1,4 +1,13 @@
-const Header = () => {
+import { SetStateAction } from "react"
+
+interface search {
+  search:{
+    search:string,
+    setSearch:React.Dispatch<SetStateAction<string>>
+  }
+}
+
+const Header = (props:search) => {
     return (
        
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -33,6 +42,10 @@ const Header = () => {
       </ul>
     </div>
   </div>
+  <div className="flex justify-center">
+  <input placeholder="Suchen" className="border text-center py-2 px-8" onChange={(e) => props.search.setSearch(e.target.value.toLowerCase())} type="text" />
+  </div>
+  
 </nav>
 
     )
