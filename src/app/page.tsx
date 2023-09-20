@@ -55,7 +55,9 @@ export default function Home() {
                   
                 </div>
               )
-            }) : products?.filter((i: { name: string }) => {
+            }) : products?.filter((i: {
+              category: any
+}) => {
      
       
 							return search.toLowerCase() === ""
