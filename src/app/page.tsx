@@ -46,7 +46,7 @@ export default function Home() {
                 <div key={index} className="flex flex-col justify-center items-center p-6 border m-6 bg-[white]">
                 
                   <h2>{item.name}</h2>
-                  <img className="w-42" src={`${item.image}`} alt="" />
+                  <img className="w-40" src={`${item.image}`} alt="" />
                   <button onClick={() => toggle(item)} className="animate-bounce border py-2 px-4 m-2">Mehr anzeigen</button>
                   {showFaq == item ? <div>
                   <p className="text-center">{item.Inhaltsstoffe}</p>
