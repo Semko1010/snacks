@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import Header from "../../components/header/Header";
 import ButtonRecept from "../../components/button/Button";
-import Products from "../../public/products.json";
-interface product {
+import productsData from "../../public/products.json";
+interface Product {
 	name: string;
 	Inhalt: string;
 	Inhaltsstoffe: string;
@@ -11,16 +11,28 @@ interface product {
 	image: string;
 }
 
-interface data {
-	products: product;
-	setProducts: React.Dispatch<React.SetStateAction<product>>;
+interface Data {
+	products: any;
+	setProducts: React.Dispatch<React.SetStateAction<Product[]>>;
 }
 
 export default function Home() {
-	const [products, setProducts] = useState<any>(Products);
+	const [products, setProducts] = useState<
+		{
+			name: string;
+			Inhalt: string;
+			Inhaltsstoffe: string;
+			category: string;
+			image: string;
+		}[]
+	>();
 	const [search, setSearch] = useState("");
 	const [changeValue, setChangeValue] = useState(true);
 	const [showFaq, setShowFaq] = useState<[] | null>();
+
+	useEffect(() => {
+		setProducts(productsData);
+	}, []);
 
 	const toggle = (item: []) => {
 		if (showFaq == item) {
