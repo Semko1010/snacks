@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Takis - Zombies 92,3g",
+		"Inhalt": "92,3g",
+		"Inhaltsstoffe": "Maismehl (verarbeitet mit Kalk), Pflanzenöl [Palm- und/oder Soja- und/oder Rapsöl], Gewürze [Maltodextrin, Salz, Zitronensäure, Dextrose, Mononatriumglutamat, Zucker, Zwiebelpulver, natürliche und künstliche Aromen, gelb 5 See, blau 1 See, gelb 5, Gummi arabicum, Mannitol].",
+		"image": "./img/chips/takisZombie.jpeg",
+		"category": "chips"
+	},
+	{
 		"name": "Takis - Blue Heat 92,3g",
 		"Inhalt": "92,3g",
 		"Inhaltsstoffe": "Maismehl, Palmöl, Maltodextrin, Zitronensäure, Zucker, Kaliumchlorid, Salz, Mononatriumglutamat, Hydrolisiertes Sojabohnen-Protein, Natürliche und Künstliche Aromen, Hydrolisierte Hefe, Sojabohnenöl, Zwiebelpulver, Blau 1, Natrium-Bicarbonate, Chili, Dinatriumionisnat, Dinatriumglutamat, Antioxidiant.",
@@ -249,6 +256,77 @@
 		"Inhalt": "370ml",
 		"Inhaltsstoffe": "Wasser, Zucker, Kohlensäure, Natürliches Mandarinenaroma, Säuerungsmittel: Zitronensäure, Farbstoff: E110, E129 (E110 & E129 kann die Aktivität und Aufmerksamkeit von Kindern beeinträchtigen), Konservierungsstoff: Kaliumsorbat",
 		"image": "./img/drinks/mandarin.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "JARRITOS - Cola",
+		"Inhalt": "370ml",
+		"Inhaltsstoffe": "Wasser, Zucker, Kohlensäure, natürliches Aroma, Koffein, Säuerungsmittel: Phosphorsäure, Farbstoff: Zuckercouleuer",
+		"image": "./img/drinks/jarritosCola.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "Gatorade Cool Blue",
+		"Inhalt": "591",
+		"Inhaltsstoffe": "Wasser, Zucker, Dextrose, Zitronensäure, Salz, Natriumcitrat, Monokaliumphosphat, Modifizierte Maisstärke, Farbstoffe, Natürliches Aroma, Estergummi, E113",
+		"neahrwerte": "99 Kj / 24 kcal, Fett 0 g, Kohlenhydrate 6,1 g, davon Zucker 5,8 g, Protein 0 g, Salz 0,1 g",
+		"image": "./img/drinks/gatoradeBlue.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "GATORADE FRUIT PUNCH",
+		"Inhalt": "591",
+		"Inhaltsstoffe": "Wasser, Zucker, Dextrose, Zitronensäure, Salz, Natriumcitrat, Monokaliumphosphat, modifizierte Lebensmittelstärke, natürlicher Geschmack, Glycerinester von Kolophonium, künstliche Farbe (E129), Karamellfarbe. E129 kann die Konzentration und Aktivität von Kindern beeinträchtigen.",
+		"neahrwerte": "99 Kj / 24 kcal, Fett 0 g, Kohlenhydrate 6,1 g, davon Zucker 5,8 g, Protein 0 g, Salz 0,1 g",
+		"image": "./img/drinks/gatoradeRed.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "GATORADE LEMON LIME",
+		"Inhalt": "591",
+		"Inhaltsstoffe": "Wasser, Zucker, Dextrose, Zitronensäure, Salz, Natriumcitrat, Monokaliumphosphat, Gummi arabicum, Glycerinester von Kolophonium, natürliches Aroma, Farbe (E102). E102 kann sich negativ auf die Aktivität und Konzentration von Kindern auswirken.",
+		"neahrwerte": "140 kcal, Fett 0 g, Natrium 270 mg, Kalium 75 mg, Kohlenhydrate 36 g, davon Zucker 34 g, Protein 0 g.",
+		"image": "./img/drinks/gatoradeYellow.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "GATORADE ORANGE",
+		"Inhalt": "591",
+		"Inhaltsstoffe": "Wasser, Zucker, Dextrose, Säureregulatoren (Zitronensäure, E331), Salz, Antioxidans (E340), Emulgatoren (E414, E444, E445), natürliches Aroma, Farbstoff (E110)",
+		"neahrwerte": "99 kJ / 24 kcal, Fett 0 g, gesättigtes Fett 0 g, Kohlenhydrate 6,1 g, Zucker 5,8 g, Protein 0 g, Salz 0,1 g.",
+		"image": "./img/drinks/gatoradeOrange.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "Prime Blue Raspberry",
+		"Inhalt": "500ml",
+		"Inhaltsstoffe": "Gefiltertes Wasser, Kokoswasser aus Konzentrat (10,5%), Säuerungsmittel (Citronensäure), Mineralsalz (Dikaliumphosphat), natürliche Aromen, Süßungsmittel (Sucralose, Acesulfam K), Aminosäuren (L-Isoleucin, L-Leucin, L-Valin ). ), Vitamin E, Vitamin A, Vitamin B-6, Vitamin B-12, BCAA-Mischung: 250 mg (L-Isoleucin, L-Leucin, L-Valin).",
+		"neahrwerte": "99 kJ / 24 kcal, Fett 0 g, gesättigtes Fett 0 g, Kohlenhydrate 6,1 g, Zucker 5,8 g, Protein 0 g, Salz 0,1 g.",
+		"image": "./img/drinks/primeBlue.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "Prime Lemon Lime",
+		"Inhalt": "500ml",
+		"Inhaltsstoffe": "Gefiltertes Wasser, Kokoswasser aus Konzentrat (10,5%), Säuerungsmittel (Citronensäure), Mineralsalz (Dikaliumphosphat), natürliches Aroma, Süßungsmittel (Sucralose, Acesulfam K), Aminosäuren (L-Isoleucin, L-Leucin, L-Valin ), Vitamin E, Vitamin A, Vitamin B-6, Vitamin B-12, BCAA-Mischung: 250 mg (L-Isoleucin, L-Leucin, L-Valin).",
+		"neahrwerte": "99 kJ / 24 kcal, Fett 0 g, gesättigtes Fett 0 g, Kohlenhydrate 6,1 g, Zucker 5,8 g, Protein 0 g, Salz 0,1 g.",
+		"image": "./img/drinks/primeGreen.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "Prime Tropical Punch",
+		"Inhalt": "500ml",
+		"Inhaltsstoffe": "Gefiltertes Wasser, Kokosnusswasser aus Konzentrat, Zitronensäure, Dikaliumphosphat, natürliches Aroma, Trimagnesiumcitrat, Pflanzensaft zur Färbung, Sucralose, Beta-Carotin zur Färbung, D-Alpha-Tocopherylacetat (Vitamin E), Acesulfam-Kalium, L-Leucin, L-Isoleucin, L-Valin, Retinylpalmitat (Vitamin A), Zinkaspartat.",
+		"neahrwerte": "99 kJ / 24 kcal, Fett 0 g, gesättigtes Fett 0 g, Kohlenhydrate 6,1 g, Zucker 5,8 g, Protein 0 g, Salz 0,1 g.",
+		"image": "./img/drinks/primeRed.jpeg",
+		"category": "drinks"
+	},
+	{
+		"name": "Prime Ice Pop",
+		"Inhalt": "500ml",
+		"Inhaltsstoffe": "Gefiltertes Wasser, Kokoswasser aus Konzentrat (10,5%), Säuerungsmittel (Citronensäure), Mineralsalz (Dikaliumphosphat), natürliche Aromen, Süßungsmittel (Sucralose, Acesulfam K), Aminosäuren (L-Isoleucin, L-Leucin, L-Valin ). ), Vitamin E, Vitamin A, Vitamin B-6, Vitamin B-12, BCAA-Mischung 250 mg (L-Isoleucin, L-Leucin, L-Valin).",
+		"neahrwerte": "99 kJ / 24 kcal, Fett 0 g, gesättigtes Fett 0 g, Kohlenhydrate 6,1 g, Zucker 5,8 g, Protein 0 g, Salz 0,1 g.",
+		"image": "./img/drinks/primeColor.jpeg",
 		"category": "drinks"
 	},
 	{
